@@ -1,2 +1,14 @@
 # 制品输出
 artifacts/
+
+# 临时下载的原始网页/HTML（web-tutorial-digest 默认输出到这里，不进 git）
+tmp/
+
+# node_modules 依赖
+node_modules/
+package.json
+package-lock.json
+bun.lock
+
+# macOS 系统文件
+.DS_Store
